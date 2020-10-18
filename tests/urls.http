@@ -1,0 +1,23 @@
+GET http://localhost:8888/
+###
+
+GET http://localhost:8888/3
+###
+
+POST http://localhost:8888/
+Content-Type: application/json
+
+{
+    "name":"Cássio da Silva"
+}
+###
+
+PUT http://localhost:8888/3
+Content-Type: application/json
+
+{
+    "name":"Cássio da Silva Carneiro"
+}
+###
+
+DELETE http://localhost:8888/3
